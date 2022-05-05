@@ -1,6 +1,6 @@
 // The `movies` array from the file `src/data.js`.
 console.log('movies: ', movies);
-
+//Hi there
 
 // Iteration 1: All directors? - Get the array of all directors.
 // _Bonus_: It seems some of the directors had directed multiple movies so they will pop up multiple times in the array of directors.
@@ -33,14 +33,14 @@ function bestYearAvg() {}
 // The following is required to make unit tests work.
 /* Environment setup. Do not modify the below code. */
 if (typeof module !== 'undefined') {
-  module.exports = {
-    getAllDirectors,
-    howManyMovies,
-    scoresAverage,
-    dramaMoviesScore,
-    orderByYear,
-    orderAlphabetically,
-    turnHoursToMinutes,
-    bestYearAvg,
-  };
+    module.exports = {
+        getAllDirectors,
+        howManyMovies,
+        scoresAverage,
+        dramaMoviesScore,
+        orderByYear,
+        orderAlphabetically,
+        turnHoursToMinutes,
+        bestYearAvg,
+    };
 }
