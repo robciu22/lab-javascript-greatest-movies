@@ -2001,5 +2001,5 @@ const movies = [{
 ];
 
 if (typeof module !== 'undefined') {
-    module.exports = { movies };
+    module.exports = movies;
 }
